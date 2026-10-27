@@ -46,10 +46,10 @@ public class IncomeTaxSystem {
 
         // Output Section
         System.out.println("\n----- TAX DETAILS -----");
-        System.out.println("Total Income: " + totalIncome);
-        System.out.println("Deductions: " + deductions);
-        System.out.println("Taxable Income: " + taxableIncome);
-        System.out.println("Tax Payable: " + tax);
+        System.out.printf("Total Income: %.2f%n", totalIncome);
+        System.out.printf("Deductions: %.2f%n", deductions);
+        System.out.printf("Taxable Income: %.2f%n", taxableIncome);
+        System.out.printf("Tax Payable: %.2f%n", tax);
 
         sc.close();
     }
